@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  div {
+    @apply py-3;
+  }
+
+  button {
+    @apply py-2 px-5 rounded bg-gray-200;
+  }
+
+  input {
+    @apply border-solid border-gray-200 border-2 p-2 rounded;
+  }
+
+  span {
+    @apply text-gray-500 text-xl font-light;
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply text-center py-5;
+  }
+  .parent-col {
+    @apply flex gap-5 justify-center;
+  }
+}
