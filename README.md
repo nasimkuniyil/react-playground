@@ -1,12 +1,25 @@
-# React + Vite
+# React Playground
+This project is a personal study space for practicing React. It contains various small components and activities, each designed to help understand different React concepts through hands-on coding.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose
+The main goal is to explore React fundamentals, such as hooks, state, props, and component interactions, by building practical examples.
 
-Currently, two official plugins are available:
+## Activities Included
+- Counter
+- Timer
+- Simple Calculator
+- Change Color and Background
+- Display Object Data
+- Passing Data from Child to Parent
+- Input Ref and Focus
+- Display Screen Size
+- Explore useEffect
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Structure
 
-## Expanding the ESLint configuration
+- `src/components/activities/` – Contains all practice components
+- `src/App.jsx` – Main entry point to switch between activities
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+This playground is for study and experimentation. Feel free to add more activities as you learn!
